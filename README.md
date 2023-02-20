@@ -2,15 +2,15 @@
 Helm chart for deploying [dani-garcia/bitwarden_rs](https://github.com/dani-garcia/vaultwarden) in Kubernetes.
 
 
-```console
-$ helm repo add bitwarden https://constin.github.io/vaultwarden-helm/
-$ helm install bitwarden bitwarden/vaultwarden
+```bash
+helm repo add bitwarden https://raw.githubusercontent.com/8ball030/vaultwarden-helm/master/
+helm install bitwarden bitwarden/vaultwarden
 ```
 
 OR
 
 ```console
-$ git clone https://github.com/constin/vaultwarden-helm
+$ git clone https://github.com/8ball030/vaultwarden-helm
 $ cd vaultwarden
 $ helm install bitwarden ./chart/vaultwarden-helm
 ```
